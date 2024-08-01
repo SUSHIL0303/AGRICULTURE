@@ -1,7 +1,0 @@
-plant-disease-prediction/
-├── app.py
-├── trained_model/
-│   ├── plant_disease_prediction_model.h5
-│   └── class_indices.json
-└── uploads/
-
