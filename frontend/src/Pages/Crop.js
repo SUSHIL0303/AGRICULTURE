@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './Crop.css';
+import '../stylesheet/Crop.css';
 
 const Crop = () => {
   const [prediction, setPrediction] = useState(null);
