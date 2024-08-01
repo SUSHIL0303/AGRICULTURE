@@ -17,7 +17,7 @@ export default function Navbar() {
           <div className="bar"></div>
           <div className="bar"></div>
         </div>
-        <h1 className="logo">FarmerIndia</h1>
+        <h1 className="logo">FarmersIndia</h1>
       </div>
       <div className={`menu ${isMenuOpen ? 'open' : ''}`}>
         <Link to="/" className="links">Home</Link>

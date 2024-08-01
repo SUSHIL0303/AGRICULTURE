@@ -1,16 +1,81 @@
-.Home-sec{
-    min-height: 100vh;
-    background-color: #6B8A7A;
-  }
-  
-  .footer{
-    padding-top: 20px;
-    background-color: #2F4841;
-    height: 80px;
-  }
-  
-  .footer p{
+.Home-sec {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+
+} 
+
+#text {
+  position: absolute;
+  z-index: 10;
+  font-size: 7rem; /* You can adjust this as needed */
+  color: white;
+  text-align: center;
+}
+
+.Home-sec img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+.footer {
+  padding-top: 20px;
+  background-color: #2F4841;
+  height: 80px;
+}
+
+.footer p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .Home-sec {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     text-align: center;
-    color: white;
-    font-size: 20px;
   }
+
+  #text {
+    font-size: 2.5rem; /* Smaller font size for smaller screens */
+    margin-top: 20px; /* Add some top margin to center the text */
+  }
+
+  .Home-sec img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.section-2{
+  background-color: #003329;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wel-txt{
+  text-align: center;
+  font-size: 90px;
+  color: aliceblue;
+  font-family: "Hammersmith One", sans-serif;
+
+}
+
+.wel-content{
+  font-size: 50px;
+  margin: 20px;
+  color: aliceblue;
+}
